@@ -3,7 +3,7 @@ sensehat = SenseHat()
 
 sensehat.clear()
 color_list = [(4,104,255),(16,187,251),(28,248,237),(39,245,167),(51,242,107)
-,(67,239,62),(131,237,72),(187,235,83)]
+,(67,239,62),(131,237,72),(187,235,83)]  # generate via colour library 
 marker = (255,0,0)
 
 # create the matrix 
