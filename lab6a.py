@@ -16,7 +16,8 @@ def get_color():
         except:
             print("Please type the proper integer value.({}/3)".format(Try))
             Try += 1 
-        return color_list[0], color_list[1], color_list[2] 
+        else:
+            return color_list[0], color_list[1], color_list[2] 
 
 if '__name__' == '__main__':
     color = input("Type the color in string(e.g. 255,1,0)")
