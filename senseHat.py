@@ -23,7 +23,8 @@ while True:
             print("Please follow the syntax: 255,255,0")
     while True:  # do-while structure 
         speed = input("Type the scroll speed(e.g. speed=0.5):")
-        if speed.isnumeric():
+        if speed.isnumeric():  # True, if all characters in the string are numeric characters.
+                               # isalnum() 
             speed = float(speed)
             break
         else:
